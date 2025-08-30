@@ -50,3 +50,12 @@ and change following:
 source ~/fast_livo2_ws/install/setup.bash
 ros2 bag play /path/to/CBD_Building_01
 ```
+
+## Thanks
+Thank you for their great work：
+
+[hku-mars/FAST-LIVO2]()
+
+[shamanqing1/fast_livo2_ros2](https://github.com/shamanqing1/fast_livo2_ros2)
+
+[ROS2 HUMBLE Migration #128](https://github.com/hku-mars/FAST-LIVO2/issues/128)
