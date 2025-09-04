@@ -29,6 +29,10 @@ Please change config file first (I changed them for my datasets)
 ### ROS1 bagfile --> ROS2 bagfile(humble)
 ``` bash
 sudo apt install ros-humble-rosbag2 ros-humble-rosbags-convert
+# or
+pip install rosbags
+
+# then
 rosbags-convert --src CBD_Building_01.bag --dst CBD_Building_01
 ```
 
