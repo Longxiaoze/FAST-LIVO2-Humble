@@ -53,6 +53,7 @@ ros2 launch mvs_ros2_driver single_camera.py
 ``` bash
 source ~/fast_livo2_handhold2_livox_ws/install/setup.bash
 ros2 launch livox_ros_driver2 msg_MID360_launch.py
+```
 
 ### fastlivo2 humble
 ``` bash
