@@ -14,7 +14,9 @@ This repository demonstrates how to run **[handhold2](https://github.com/hku-mar
 ### fast-livo2 and Hikvision driver
 **[fastlivo2 humble](https://github.com/Longxiaoze/FAST-LIVO2/tree/handhold2)** + **[Hikvision MV-CU013-A0UC driver](https://github.com/Longxiaoze/mvs_ros_driver2)**
 
-Please install [MVS SDK](https://www.hikrobotics.com/en/machinevision/service/download/) firstly!!! (tested on mvs 4.6.0)
+Please install [MVS SDK](https://www.hikrobotics.com/en/machinevision/service/download/) firstly!!! (tested on MVS 4.6.0 x86 and MVS 3.0.1 aarch64)
+
+You need to use `uname -a` to check whether the system architecture is **x86_64 or aarch64**. And use the correct export command.
 
 ``` bash
 mkdir -p  ~/fast_livo2_handhold2_ws/src
@@ -45,6 +47,7 @@ bash ./build.sh humble
 ### Hikvision camera
 ``` bash
 export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+# export LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu:$LD_LIBRARY_PATH
 source ~/fast_livo2_handhold2_ws/install/setup.bash
 ros2 launch mvs_ros2_driver single_camera.py
 ```
@@ -58,6 +61,7 @@ ros2 launch livox_ros_driver2 msg_MID360_launch.py
 ### fastlivo2 humble
 ``` bash
 export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+# export LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu:$LD_LIBRARY_PATH
 source ~/fast_livo2_handhold2_ws/install/setup.bash
 ros2 launch fast_livo mapping_avia.launch.py
 ```
