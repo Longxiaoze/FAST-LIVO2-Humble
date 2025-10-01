@@ -14,7 +14,7 @@ This repository demonstrates how to run **[handhold2](https://github.com/hku-mar
 ### fast-livo2 and Hikvision driver
 **[fastlivo2 humble](https://github.com/Longxiaoze/FAST-LIVO2/tree/handhold2)** + **[Hikvision MV-CU013-A0UC driver](https://github.com/Longxiaoze/mvs_ros_driver2)**
 
-Please install MVS SDK firstly!!! (tested on mvs 4.6.0)
+Please install [MVS SDK](https://www.hikrobotics.com/en/machinevision/service/download/) firstly!!! (tested on mvs 4.6.0)
 
 ``` bash
 mkdir -p  ~/fast_livo2_handhold2_ws/src
