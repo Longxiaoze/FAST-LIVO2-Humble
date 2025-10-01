@@ -34,6 +34,8 @@ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 ### Livox Mid-360 driver
 **[mid-360 driver](https://github.com/Longxiaoze/livox_ros_driver2)** 
+
+Please install Livox SDK2 follow the guidance of installation in the [Livox-SDK2/README.md](https://github.com/Livox-SDK/Livox-SDK2/blob/master/README.md)
 ``` bash
 mkdir -p ~/fast_livo2_handhold2_livox_ws/src
 cd ~/fast_livo2_handhold2_livox_ws/src
