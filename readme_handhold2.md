@@ -42,14 +42,14 @@ bash ./build.sh humble
 
 
 ## run
-### Mid-360 driver
+### Hikvision camera
 ``` bash
 export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 source ~/fast_livo2_handhold2_ws/install/setup.bash
 ros2 launch mvs_ros2_driver single_camera.py
 ```
 
-### Hikvision camera
+### Mid-360 driver
 ``` bash
 source ~/fast_livo2_handhold2_livox_ws/install/setup.bash
 ros2 launch livox_ros_driver2 msg_MID360_launch.py
