@@ -14,7 +14,7 @@ This repository demonstrates how to run **[handhold2](https://github.com/hku-mar
 ### fast-livo2 and Hikvision driver
 **[fastlivo2 humble](https://github.com/Longxiaoze/FAST-LIVO2/tree/handhold2)** + **[Hikvision MV-CU013-A0UC driver](https://github.com/Longxiaoze/mvs_ros_driver2)**
 
-Please install [MVS SDK](https://www.hikrobotics.com/en/machinevision/service/download/) firstly!!! (tested on MVS 4.6.0 x86 and MVS 3.0.1 aarch64)
+Please install [MVS SDK](https://www.hikrobotics.com/en/machinevision/service/download/) first!!! (tested on MVS 4.6.0 x86 and MVS 3.0.1 aarch64)
 
 You need to use `uname -a` to check whether the system architecture is **x86_64 or aarch64**. And use the correct export command.
 
@@ -74,3 +74,7 @@ If you need to record ros2bag files, please use:
 source ~/fast_livo2_handhold2_livox_ws/install/setup.bash
 ros2 bag record -a   --max-bag-size 4294967296   --max-cache-size 4096   -o path/to/yourbag
 ```
+
+## issues
+### IMU and LiDAR not synced! delta time:
+please check [link](https://github.com/hku-mars/FAST-LIVO2/issues/117)
