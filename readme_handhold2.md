@@ -71,5 +71,6 @@ ros2 launch fast_livo mapping_avia.launch.py
 
 If you need to record ros2bag files, please use:
 ``` bash
+source ~/fast_livo2_handhold2_livox_ws/install/setup.bash
 ros2 bag record -a   --max-bag-size 4294967296   --max-cache-size 4096   -o path/to/yourbag
 ```
