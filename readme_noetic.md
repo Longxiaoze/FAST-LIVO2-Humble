@@ -71,5 +71,6 @@ roslaunch livox_ros_driver2 msg_MID360.launch
 
 ``` bash
 source ~/fast_livo2_handhold2_ws/devel/setup.bash
+export LD_LIBRARY_PATH=/lib/aarch64-linux-gnu:/usr/lib/aarch64-linux-gnu:$LD_LIBRARY_PATH
 roslaunch fast_livo mapping_avia.launch
 ```
