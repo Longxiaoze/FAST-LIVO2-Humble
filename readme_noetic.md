@@ -13,6 +13,14 @@ make
 sudo make install
 ```
 
+``` c++
+// sophus/so2.cpp
+unit_complex_.real() = 1.;
+unit_complex_.imag() = 0.;
+//替换为对 complex 整体赋值（兼容性最好）：
+unit_complex_ = std::complex<double>(1.0, 0.0);
+```
+
 ## Livox SDK
 Please install Livox SDK2 follow the guidance of installation in the [Livox-SDK2/README.md](https://github.com/Livox-SDK/Livox-SDK2/blob/master/README.md)
 ``` bash
