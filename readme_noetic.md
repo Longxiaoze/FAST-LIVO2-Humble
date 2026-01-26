@@ -49,6 +49,7 @@ bash ./build.sh ROS1
 
 ## MVS
 Please install [MVS SDK](https://www.hikrobotics.com/en/machinevision/service/download/) first!!! (Tested MVS 3.0.1 aarch64 on jetpack5.1 ubuntu20 noetic)
+And you need to use opencv4.2 and opencv_bridge 4.2 for drive camera!!!!!
 ``` bash
 mkdir -p  ~/fast_livo2_handhold2_ws/src
 cd ~/fast_livo2_handhold2_ws/src
