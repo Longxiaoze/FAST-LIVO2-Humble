@@ -84,3 +84,9 @@ source ~/fast_livo2_handhold2_ws/devel/setup.bash
 export LD_LIBRARY_PATH=/lib/aarch64-linux-gnu:/usr/lib/aarch64-linux-gnu:$LD_LIBRARY_PATH
 roslaunch fast_livo mapping_avia.launch
 ```
+
+## record
+``` bash
+source ~/fast_livo2_handhold2_livox_ws/devel/setup.bash
+rosbag record /livox/lidar /livox/imu /left_camera/image -O bagname
+```
