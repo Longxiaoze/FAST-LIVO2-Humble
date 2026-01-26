@@ -35,6 +35,7 @@ sudo make install
 ```
 
 ## Livox
+change ip address in livox_ros_driver2/config/MID360_config.json for lidar and pc
 ``` bash
 mkdir ~/packages
 cd ~/packages
