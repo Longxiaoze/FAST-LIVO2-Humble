@@ -59,7 +59,7 @@ cd ~/fast_livo2_handhold2_ws/src
 git clone -b ros1 https://github.com/Longxiaoze/mvs_ros_driver2
 ```
 
-**change `TriggerEnable: 1` **
+**change `TriggerEnable: 1`**
 
 ## Fast-livo2 noetic
 ``` bash
@@ -149,7 +149,7 @@ cd ~/fast_livo2_handhold2_ws/src
 git clone -b g1_noetic https://github.com/Longxiaoze/mvs_ros_driver2
 ```
 
-**change `TriggerEnable: 1` **
+**change `TriggerEnable: 1`**
 
 ## Fast-livo2 noetic
 ``` bash
