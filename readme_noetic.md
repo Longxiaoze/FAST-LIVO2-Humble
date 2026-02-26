@@ -60,6 +60,7 @@ git clone -b ros1 https://github.com/Longxiaoze/mvs_ros_driver2
 
 ## Fast-livo2 noetic
 ``` bash
+sudo apt install -y ros-noetic-image-transport ros-noetic-compressed-image-transport
 cd ~/fast_livo2_handhold2_ws/src
 git clone https://github.com/hku-mars/FAST-LIVO2
 git clone https://github.com/xuankuzcr/rpg_vikit.git 
