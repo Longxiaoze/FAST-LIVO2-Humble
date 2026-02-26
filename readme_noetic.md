@@ -185,5 +185,5 @@ roslaunch fast_livo mapping_avia.launch
 ## record
 ``` bash
 source ~/fast_livo2_handhold2_livox_ws/devel/setup.bash
-rosbag record /livox/lidar /livox/imu /left_camera/image /front_camera/image_raw -O bagname
+rosbag record /livox/lidar /livox/imu /left_camera/image -O bagname
 ```
