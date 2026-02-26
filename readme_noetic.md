@@ -132,6 +132,8 @@ sudo make install
 ```
 
 ## Livox
+The default IP addresses have already been filled into the [config file](https://github.com/Longxiaoze/livox_ros_driver2/blob/g1_noetic/config/MID360_config.json#L13-L40).
+`G1 Jetson NX: 192.168.123.164`  and `MID-360: 192.168.123.120`
 ``` bash
 cd ~/fast_livo2_handhold2_livox_ws/src
 git clone -b g1_noetic --single-branch https://github.com/Longxiaoze/livox_ros_driver2.git
@@ -142,7 +144,7 @@ bash ./build.sh ROS1
 ## MVS
 Please install [MVS SDK](https://www.hikrobotics.com/en/machinevision/service/download/) first!!! (Tested MVS 3.0.1 aarch64 on jetpack5.1 ubuntu20 noetic)
 
-And you need to use opencv4.2 and opencv_bridge 4.2 for drive camera!!!!!(follow [issue](https://github.com/hku-mars/FAST-LIVO2/issues/248))
+Please check opencv version and add to cmake files. You need to use opencv4.2 and opencv_bridge 4.2 for drive camera!!!!!(follow [issue](https://github.com/hku-mars/FAST-LIVO2/issues/248))
 ``` bash
 mkdir -p  ~/fast_livo2_handhold2_ws/src
 cd ~/fast_livo2_handhold2_ws/src
